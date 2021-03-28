@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(164, 87, 236);
+    margin: 0%;
+}
+
+h1{
+    color: cornsilk;
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 4px 2px 4px #000000;
+}
+
+.mainstage{
+text-align:center;
+   
+    margin: 10%;
+}
+
+
+.drum{
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(241, 202, 202);
+    padding: 2px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.drum:hover{
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(41, 40, 41);
+    opacity: 0.7;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.drum1{
+    background-image: url(tom1.png);
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 4px 4px 4px #000000;
+    color: rgb(42, 42, 243);
+}
+.drum2{
+    background-image: url(tom2.png);
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 4px 4px 4px #000000;
+    color: rgb(42, 42, 243);
+
+}
+.drum3{
+    background-image: url(tom3.png);
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 4px 4px 4px #000000;
+    color: rgb(42, 42, 243);
+}
+.drum4{
+    background-image: url(tom4.png);
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 4px 4px 4px #000000;
+    color: rgb(42, 42, 243);
+}
+.drum5{
+    background-image: url(kick.png);
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 4px 4px 4px #000000;
+    color: rgb(42, 42, 243);
+}
+.drum6{
+    background-image: url(snare.png);
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 4px 4px 4px #000000;
+    color: rgb(42, 42, 243);
+}
+.drum7{
+    background-image: url(crash.png);
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 4px 4px 4px #000000;
+    color: rgb(42, 42, 243);
+}
+@media only screen  and (max-width:670px){
+    .drum{
+        cursor: pointer;
+        display: inline-block;
+        width: 130px;
+        height: 130px;
+        border: 10px solid rgb(241, 202, 202);
+        padding: 2px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .drum:hover{
+        cursor: pointer;
+        display: inline-block;
+        width: 130px;
+        height: 130px;
+        border: 10px solid rgb(27, 20, 27);
+        padding: 2px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    h1{
+        color: cornsilk;
+        text-align: center;
+        font-size: 4em;
+        font-family: 'Fredoka One', cursive;
+        text-shadow: 4px 2px 4px #000000;
+    }
+}
